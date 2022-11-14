@@ -3,9 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	<link rel="stylesheet" type="text/css" href="assest/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assest/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assest/css/media-query.css">
+	<title>NewsHomepage</title>
 </head>
 <body>
 
 </body>
+    <script src="assest/js/bootstrap.bundle.min.js"></script>
+    <script src="assest/js/script.js"></script>
 </html>
