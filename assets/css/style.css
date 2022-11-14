@@ -1,0 +1,11 @@
+
+body{
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+}
+
+ul.navbar-nav{
+  width: 100%;
+  text-align: right;
+}
