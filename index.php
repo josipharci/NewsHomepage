@@ -34,6 +34,16 @@
   </div>
 </nav>
 </header>
+<div class="container content">
+  <div class="row">
+    <div class="col-8">
+      
+    </div>
+    <div class="col-4">
+      
+    </div>
+  </div>
+</div>
 <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Josip Harci</a>.
