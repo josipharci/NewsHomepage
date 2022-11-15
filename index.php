@@ -73,7 +73,7 @@
      <div class="content_post">
        <p class="number">01</p>
        <h3>Reviving Retro PCs</h3>
-       <p>What happens when old PCs are given modern upgrades?</p>
+       <p>What happens when old PCs <br>are given modern upgrades?</p>
      </div>
     </div>
     <div class="col">
@@ -81,7 +81,7 @@
      <div class="content_post">
        <p class="number">02</p>
        <h3>Top 10 Laptops of 2022</h3>
-       <p>Our best picks for various needs and budgets.</p>
+       <p>Our best picks for various<br>needs and budgets.</p>
      </div>
     </div>
     <div class="col">
@@ -89,7 +89,7 @@
      <div class="content_post">
        <p class="number">03</p>
        <h3>The Growth of Gaming</h3>
-       <p>How the pandemic has sparked fresh opportunities.</p>
+       <p>How the pandemic has<br>sparked fresh opportunities.</p>
      </div>
     </div>
   </div>

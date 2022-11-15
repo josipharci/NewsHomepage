@@ -48,5 +48,17 @@ body{
 }
 
 .content_post{
-  float: right;
+  
+}
+
+.content_post h3{
+  font-size: 12px;
+}
+
+.content_post p{
+  font-size: 10px;
+}
+
+.number{
+ font-size: 15px;
 }
