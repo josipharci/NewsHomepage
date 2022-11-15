@@ -66,7 +66,35 @@
     </div>
   </div>
 </div>
-<div class="attribution">
+<div class="container post">
+  <div class="row">
+    <div class="col">
+     <img src="assets/images/image-retro-pcs.jpg" alt="img-post"> 
+     <div class="content_post">
+       <p class="number">01</p>
+       <h3>Reviving Retro PCs</h3>
+       <p>What happens when old PCs are given modern upgrades?</p>
+     </div>
+    </div>
+    <div class="col">
+     <img src="assets/images/image-top-laptops.jpg" alt="img-post"> 
+     <div class="content_post">
+       <p class="number">02</p>
+       <h3>Top 10 Laptops of 2022</h3>
+       <p>Our best picks for various needs and budgets.</p>
+     </div>
+    </div>
+    <div class="col">
+     <img src="assets/images/image-gaming-growth.jpg" alt="img-post"> 
+     <div class="content_post">
+       <p class="number">03</p>
+       <h3>The Growth of Gaming</h3>
+       <p>How the pandemic has sparked fresh opportunities.</p>
+     </div>
+    </div>
+  </div>
+</div>
+<div class="attribution text-center">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Josip Harci</a>.
 </div>
