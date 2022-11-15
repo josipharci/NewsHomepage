@@ -37,10 +37,32 @@
 <div class="container content">
   <div class="row">
     <div class="col-8">
-      
+      <img src="assets/images/image-web-3-desktop.jpg" alt="border-img">
+      <div class="d-flex justify-content-between">
+          <div>
+             <h2>The Bright Future of Web 3.0?</h2>
+          </div>
+          <div>
+             <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+             But is it really fulfilling its promise?</p>
+             <a class="btn btn-read" href="#">Read more</a>
+          </div>
+        </div>
     </div>
     <div class="col-4">
-      
+        <h3>News</h3>
+        <div class="col">
+          <h2>Hydrogen VS Electric Cars</h2>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <div class="col">
+          <h2>The Downsides of AI Artistry</h2>
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        <div class="col">
+          <h2>Is VC Funding Drying Up?</h2>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
     </div>
   </div>
 </div>
