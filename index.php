@@ -71,7 +71,7 @@
     <div class="col">
      <img src="assets/images/image-retro-pcs.jpg" alt="img-post"> 
      <div class="content_post">
-       <p class="number">01</p>
+       <p id="number">01</p>
        <h3>Reviving Retro PCs</h3>
        <p>What happens when old PCs <br>are given modern upgrades?</p>
      </div>
@@ -79,7 +79,7 @@
     <div class="col">
      <img src="assets/images/image-top-laptops.jpg" alt="img-post"> 
      <div class="content_post">
-       <p class="number">02</p>
+       <p id="number">02</p>
        <h3>Top 10 Laptops of 2022</h3>
        <p>Our best picks for various<br>needs and budgets.</p>
      </div>
@@ -87,7 +87,7 @@
     <div class="col">
      <img src="assets/images/image-gaming-growth.jpg" alt="img-post"> 
      <div class="content_post">
-       <p class="number">03</p>
+       <p id="number">03</p>
        <h3>The Growth of Gaming</h3>
        <p>How the pandemic has<br>sparked fresh opportunities.</p>
      </div>
