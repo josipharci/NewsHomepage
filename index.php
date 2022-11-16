@@ -50,7 +50,7 @@
         </div>
     </div>
     <div class="col-4">
-        <h3>News</h3>
+        <h3>New</h3>
         <div class="col">
           <h2>Hydrogen VS Electric Cars</h2>
           <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
