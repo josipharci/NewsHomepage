@@ -38,11 +38,11 @@
   <div class="row">
     <div class="col-8">
       <img src="assets/images/image-web-3-desktop.jpg" alt="border-img">
-      <div class="d-flex justify-content-between">
-          <div>
-             <h2>The Bright Future of Web 3.0?</h2>
+      <div class="d-flex justify-content-between content_text">
+          <div id="heading">
+             <h2>The Bright Future of <br>Web 3.0?</h2>
           </div>
-          <div>
+          <div id="text-line">
              <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
              But is it really fulfilling its promise?</p>
              <a class="btn btn-read" href="#">Read more</a>

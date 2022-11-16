@@ -1,7 +1,7 @@
 
 body{
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 200px;
+  margin-right: 200px;
   margin-top: 50px;
 }
 
@@ -25,6 +25,37 @@ body{
 
 .content > .row > .col-8 > img{
   width:100%;
+}
+
+.content_text{
+  padding-top: 20px;
+}
+
+#heading{
+  width:100%;
+  padding: 0 10px;
+}
+
+#heading h2{
+  font-size: 35px;
+}
+
+#text-line {
+  padding: 0 25px;
+}
+
+#text-line p{
+  font-size: 14px;
+  padding: 0 25px;
+}
+
+#text-line a{
+  margin-left:25px;
+  color: #fff;
+}
+
+#text-line a:hover{
+  background:hsl(240, 100%, 5%);
 }
 
 .btn-read{
