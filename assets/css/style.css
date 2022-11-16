@@ -54,7 +54,6 @@ body{
   font-size: 14px;
   padding: 0 25px;
   color: hsl(270, 4%, 80%);
-  font-family: ;
 }
 
 #text-line a{
@@ -80,7 +79,34 @@ body{
   font-size: 35px;
   color:hsl(35, 77%, 62%);
   padding-top:20px;
-  padding-left:5px;
+  padding-left:15px;
+}
+
+.content > .row > .col-4 > .col{
+  margin: 15px 5px;
+  padding: 15px 10px;
+  border-bottom: 1px solid hsl(270, 4%, 80%);
+}
+
+.content > .row > .col-4 > .col:nth-child(4){
+  border: none;
+}
+
+.content > .row > .col-4 > .col > a{
+  font-size: 20px;
+  color: #fff;
+  padding-left: 5px;
+}
+
+.content > .row > .col-4 > .col > a:hover{
+  color:hsl(35, 77%, 62%);
+}
+
+.content > .row > .col-4 > .col > p{
+  font-size: 14px;
+  color: hsl(270, 4%, 80%);
+  padding-top:10px;
+  padding-left: 5px;
 }
 
 .post{
