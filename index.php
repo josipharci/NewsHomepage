@@ -52,15 +52,15 @@
     <div class="col-4">
         <h3>New</h3>
         <div class="col">
-          <a>Hydrogen VS Electric Cars</a>
+          <a href="#">Hydrogen VS Electric Cars</a>
           <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
         </div>
         <div class="col">
-          <a>The Downsides of AI Artistry</a>
+          <a href="#">The Downsides of AI Artistry</a>
           <p>What are the possible adverse effects of on-demand AI image generation?</p>
         </div>
         <div class="col">
-          <a>Is VC Funding Drying Up?</a>
+          <a href="#">Is VC Funding Drying Up?</a>
           <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
         </div>
     </div>
@@ -69,26 +69,26 @@
 <div class="container post">
   <div class="row">
     <div class="col">
-     <img src="assets/images/image-retro-pcs.jpg" alt="img-post"> 
+      <img src="assets/images/image-retro-pcs.jpg" alt="img-post">
      <div class="content_post">
        <p id="number">01</p>
-       <h3>Reviving Retro PCs</h3>
+       <a href="#">Reviving Retro PCs</a>
        <p>What happens when old PCs <br>are given modern upgrades?</p>
      </div>
     </div>
     <div class="col">
-     <img src="assets/images/image-top-laptops.jpg" alt="img-post"> 
+     <img src="assets/images/image-top-laptops.jpg" alt="img-post">
      <div class="content_post">
        <p id="number">02</p>
-       <h3>Top 10 Laptops of 2022</h3>
+       <a href="#">Top 10 Laptops of 2022</a>
        <p>Our best picks for various<br>needs and budgets.</p>
      </div>
     </div>
     <div class="col">
-     <img src="assets/images/image-gaming-growth.jpg" alt="img-post"> 
+     <img src="assets/images/image-gaming-growth.jpg" alt="img-post">
      <div class="content_post">
        <p id="number">03</p>
-       <h3>The Growth of Gaming</h3>
+       <a href="#">The Growth of Gaming</a>
        <p>How the pandemic has<br>sparked fresh opportunities.</p>
      </div>
     </div>
