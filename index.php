@@ -20,10 +20,10 @@
     <div class="col-8">
       <img src="assets/images/image-web-3-desktop.jpg" alt="border-img">
       <div class="d-flex justify-content-between content_text">
-          <div id="heading">
+          <div class="col-sm" id="heading">
              <h2>The Bright Future of <br>Web 3.0?</h2>
           </div>
-          <div id="text-line">
+          <div class="col-sm" id="text-line">
              <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
              But is it really fulfilling its promise?</p>
              <a class="btn btn-read" href="#">Read more</a>
@@ -32,15 +32,15 @@
     </div>
     <div class="col-4">
         <h3>New</h3>
-        <div class="col">
+        <div class="col-sm">
           <a href="#">Hydrogen VS Electric Cars</a>
           <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
         </div>
-        <div class="col">
+        <div class="col-sm">
           <a href="#">The Downsides of AI Artistry</a>
           <p>What are the possible adverse effects of on-demand AI image generation?</p>
         </div>
-        <div class="col">
+        <div class="col-sm">
           <a href="#">Is VC Funding Drying Up?</a>
           <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
         </div>
@@ -49,25 +49,25 @@
 </div>
 <div class="container post">
   <div class="row">
-    <div class="col">
+    <div class="col-sm">
       <img src="assets/images/image-retro-pcs.jpg" alt="img-post">
-     <div class="content_post">
+     <div class="col-sm content_post">
        <p id="number">01</p>
        <a href="#">Reviving Retro PCs</a>
        <p>What happens when old PCs <br>are given modern upgrades?</p>
      </div>
     </div>
-    <div class="col">
+    <div class="col-sm">
      <img src="assets/images/image-top-laptops.jpg" alt="img-post">
-     <div class="content_post">
+     <div class="col-sm content_post">
        <p id="number">02</p>
        <a href="#">Top 10 Laptops of 2022</a>
        <p>Our best picks for various<br>needs and budgets.</p>
      </div>
     </div>
-    <div class="col">
+    <div class="col-sm">
      <img src="assets/images/image-gaming-growth.jpg" alt="img-post">
-     <div class="content_post">
+     <div class="col-sm content_post">
        <p id="number">03</p>
        <a href="#">The Growth of Gaming</a>
        <p>How the pandemic has<br>sparked fresh opportunities.</p>
