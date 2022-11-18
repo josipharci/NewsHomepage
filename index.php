@@ -19,7 +19,7 @@
   <div class="row">
     <div class="col-8">
       <img src="assets/images/image-web-3-desktop.jpg" alt="border-img">
-      <div class="d-flex justify-content-between content_text">
+      <div class="row">
           <div class="col-sm" id="heading">
              <h2>The Bright Future of <br>Web 3.0?</h2>
           </div>
