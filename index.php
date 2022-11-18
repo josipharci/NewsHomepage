@@ -11,28 +11,9 @@
 </head>
 <body>
  <header>
-  <nav class="navbar">
-  <a class="navbar-brand" href="#"><img src="assets/images/logo.svg" alt="logo"></a>
-  <div id="navbarNav">
-    <ul class="nav justify-content-end">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">New</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Popular</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Trending</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Categories</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+  <nav class="container">
+    <a class="navbar-brand" href=""><img src="assets/images/logo.svg" alt="logo"></a>
+  </nav>
 </header>
 <div class="container content">
   <div class="row">
