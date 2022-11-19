@@ -11,10 +11,15 @@
 </head>
 <body>
  <header>
-  <nav class="container">
+  <nav class="container nav">
     <div class="nav-bar">
     <a class="navbar-brand" href="#"><img src="assets/images/logo.svg" alt="logo"></a>
+    <i class="sliderbarOpen"><img src="assets/images/icon-menu.svg"></i>
      <div class="menu">
+       <div class="logo-toggle">
+         <a class="logo_sliderBar" href="#"><img src="assets/images/logo.svg" alt="logo"></a>
+         <i class="sliderbarClose"><img src="assets/images/icon-menu-close.svg"></i>
+       </div>
        <ul class="nav-links">
           <li><a href="#">Home</a></li>
           <li><a href="#">New</a></li>

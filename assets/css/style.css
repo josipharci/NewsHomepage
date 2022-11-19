@@ -9,6 +9,7 @@ body{
 nav{
   height: 70px;
   width: 100%;
+  z-index: 100;
 }
 
 .nav-bar{
@@ -20,6 +21,14 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.logo-toggle{
+  display: none;  
+}
+
+.sliderbarOpen{
+  display: none;
 }
 
 .nav-links {
