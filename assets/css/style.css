@@ -14,10 +14,9 @@ nav{
 .nav-bar{
   position: relative;
   height: 100%;
-  max-width: 0px;
   width: 100%;
-  margin: 0 auto;
-  padding: 0 30px;
+  margin: 0 5px;
+  padding: 0 2px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -31,7 +30,7 @@ nav{
 
 .nav-links > li{
   list-style: none;
-  margin: 0 20px;
+  margin: 0 0 0 20px;
 }
 
 .nav-links > li > a{
