@@ -6,11 +6,41 @@ body{
   margin-top: 50px;
 }
 
-.nav-item > a{
-  color:hsl(252, 5%, 56%);
+nav{
+  height: 70px;
+  width: 100%;
 }
 
-.nav-item > a:hover{
+.nav-bar{
+  position: relative;
+  height: 100%;
+  max-width: 0px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.nav-links > li{
+  list-style: none;
+  margin: 0 20px;
+}
+
+.nav-links > li > a{
+  font-size: 1.0rem;
+  color:hsl(252, 5%, 56%);
+  text-decoration-line: none;
+}
+
+.nav-items > li > a:hover{
   color:hsl(35, 77%, 62%);
 }
 
@@ -42,7 +72,9 @@ body{
 }
 
 #heading h2{
-  font-size: 35px;
+
+  padding:0 25px;
+  font-size: 3.0rem;
   font-weight:800;
 }
 
@@ -51,13 +83,14 @@ body{
 }
 
 #text-line p{
-  font-size: 14px;
-  padding: 0 25px;
+  text-align: left;
+  font-size: 0.8rem;
+  padding: 10px 15px;
   color: hsl(270, 4%, 80%);
 }
 
 #text-line a{
-  margin-left:25px;
+  margin-left:15px;
   color: #fff;
 }
 
@@ -76,7 +109,7 @@ body{
 }
 
 .content > .row > .col-4 > h3{
-  font-size: 35px;
+  font-size: 2.2rem;
   color:hsl(35, 77%, 62%);
   padding-top:20px;
   padding-left:15px;
@@ -93,7 +126,7 @@ body{
 }
 
 .content > .row > .col-4 > .col-sm > a{
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #fff;
   padding-left: 5px;
   text-decoration-line: none;
@@ -104,7 +137,7 @@ body{
 }
 
 .content > .row > .col-4 > .col-sm > p{
-  font-size: 14px;
+  font-size: 0.9rem;
   color: hsl(270, 4%, 80%);
   padding-top:10px;
   padding-left: 5px;
@@ -123,7 +156,7 @@ body{
 }
 
 .content_post a{
-  font-size: 16px;
+  font-size: 1.0rem;
   font-weight: 700;
   color: #000;
   text-decoration-line:none;
@@ -134,12 +167,12 @@ body{
 }
 
 .content_post p{
-  font-size: 14px;
+  font-size: 0.8rem;
   color:hsl(270, 4%, 80%);
 }
 
 #number{
-  font-size: 30px;
+  font-size: 1.8rem;
   font-weight: 700;
   color:hsl(270, 4%, 80%);
 }

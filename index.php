@@ -12,7 +12,18 @@
 <body>
  <header>
   <nav class="container">
-    <a class="navbar-brand" href=""><img src="assets/images/logo.svg" alt="logo"></a>
+    <div class="nav-bar">
+    <a class="navbar-brand" href="#"><img src="assets/images/logo.svg" alt="logo"></a>
+     <div class="menu">
+       <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+       </ul>
+     </div>
+    </div>
   </nav>
 </header>
 <div class="container content">
@@ -21,7 +32,7 @@
       <img src="assets/images/image-web-3-desktop.jpg" alt="border-img">
       <div class="row">
           <div class="col-sm" id="heading">
-             <h2>The Bright Future of <br>Web 3.0?</h2>
+             <h2>The Bright Future of Web 3.0?</h2>
           </div>
           <div class="col-sm" id="text-line">
              <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 

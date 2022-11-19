@@ -1,13 +1,12 @@
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 375px) {
   body {
-    margin:0;
+    margin: 5px 5px;
   }
 
   .content > .row > .col-8 > img{
     content:url(../images/image-web-3-mobile.jpg);
-    margin-right: auto;
-    margin-left: auto;
+    text-align: center;
   }
  
   .content > .row > .col-8{
@@ -17,7 +16,14 @@
 
   #heading{
     width: 100%;
-    padding:15px;
+  }
+
+  #heading h2{
+    font-size: 2.4rem;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+
   }
 
   #text-line{
@@ -27,19 +33,23 @@
   }
  
   #text-line p{
-    padding: 0 15px;
-    padding-top:5px;
+    padding: 0 20px;
   }
 
   #text-line a{
     margin: 0 15px;
+    padding: 5px 25px;
   }
 
   .content > .row > .col-4{
     width: 90%;
     height: 580px;
-    margin-left: 15px;
-    margin-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .content > .row > .col-4{
+   
   }
 
   .post{
