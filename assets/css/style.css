@@ -6,51 +6,60 @@ body{
   margin-top: 50px;
 }
 
-nav{
-  height: 70px;
-  width: 100%;
-  z-index: 100;
+/* NavBar */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.nav-bar{
-  position: relative;
-  height: 100%;
-  width: 100%;
-  margin: 0 5px;
-  padding: 0 2px;
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+header{
+  display: flex;
+  justify-content:space-around;
+  padding: 1rem 0;
+  align-items: center;
+}
+
+.logo{
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
-.logo-toggle{
-  display: none;  
+.nav_list{
+  display: flex;
+  align-items: center;
 }
 
-.sliderbarOpen{
+.nav_item{
+  margin: 0 8px;
+}
+
+.nav_link{
+  padding: 10px;
+  color:hsl(252, 5%, 56%);
+  font-size: 0.9rem;
+  font-weight: 400px;
+}
+
+.nav_link:hover{
+  color:hsl(35, 77%, 62%);
+}
+
+.header_toggle,
+.header_close{
   display: none;
 }
 
-.nav-links {
-  display: flex;
-  align-items: center;
-  margin: 0;
-}
-
-.nav-links > li{
-  list-style: none;
-  margin: 0 0 0 20px;
-}
-
-.nav-links > li > a{
-  font-size: 1.0rem;
-  color:hsl(252, 5%, 56%);
-  text-decoration-line: none;
-}
-
-.nav-items > li > a:hover{
-  color:hsl(35, 77%, 62%);
-}
+/* End Navbar */
 
 .content{
   height:520px;

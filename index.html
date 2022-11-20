@@ -10,27 +10,28 @@
 	<title>NewsHomepage</title>
 </head>
 <body>
- <header>
-  <nav class="container nav">
-    <div class="nav-bar">
-    <a class="navbar-brand" href="#"><img src="assets/images/logo.svg" alt="logo"></a>
-    <i class="sliderbarOpen"><img src="assets/images/icon-menu.svg"></i>
-     <div class="menu">
-       <div class="logo-toggle">
-         <a class="logo_sliderBar" href="#"><img src="assets/images/logo.svg" alt="logo"></a>
-         <i class="sliderbarClose"><img src="assets/images/icon-menu-close.svg"></i>
-       </div>
-       <ul class="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">New</a></li>
-          <li><a href="#">Popular</a></li>
-          <li><a href="#">Trending</a></li>
-          <li><a href="#">Categories</a></li>
-       </ul>
-     </div>
+ 
+<header>
+    <div class="logo">
+      <img src="assets/images/logo.svg" alt="logo">
     </div>
-  </nav>
-</header>
+    <nav class="nav" id="nav-menu">
+      
+      <i class="header_close" id="close-menu"><img src="assets/images/icon-menu-close.svg" alt="icon"></i>
+
+      <ul class="nav_list">
+         <li class="nav_item"><a class="nav_link" href="#">Home</a></li>
+         <li class="nav_item"><a class="nav_link" href="#">New</a></li>
+         <li class="nav_item"><a class="nav_link" href="#">Popular</a></li>
+         <li class="nav_item"><a class="nav_link" href="#">Trending</a></li>
+         <li class="nav_item"><a class="nav_link" href="#">Categories</a></li>
+      </ul>
+    </nav>
+  
+   <i class="header_toggle" id="toggle-menu"><img src="assets/images/icon-menu.svg" alt="icon"></i>
+
+ </header>
+
 <div class="container content">
   <div class="row">
     <div class="col-8">
@@ -96,8 +97,7 @@
     Coded by <a href="#">Josip Harci</a>.
 </div>
 
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/script.js"></script>
-<script src="assets/js/jquery.js"></script>
+<script src="assets/js/main.js"></script>
+
 </body>   
 </html>

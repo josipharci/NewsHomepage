@@ -1,53 +1,66 @@
-@media only screen and  (max-width:790px){
-  .menu{
-    position: fixed;
-    height: 100%;
-    width: 200px;
-    right: -100%;
-    top: 0;
-    background:#fff;
-    z-index: 100;
-  }
-
-  nav.active > .menu{
-    right: -0%;
-  }
-
-  .nav-links{
-    flex-direction: column;
-    padding-top:60px;
-    padding-right: 100px;
-  }
-
-  .nav-links > li > a{
-    display: block;
-    margin-top: 20px;
-  }
-
-  .logo-toggle{
-    display: block;
-    width: 100%;
-    display: flex;
-    align-items:center;
-    justify-content: space-between;
-  }
-
-  .logo_sliderBar{
-    visibility: hidden;
-  }
+@media screen and (max-width: 768px){
   
-  .sliderbarClose{
-    cursor: pointer;
+  body{
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
   }
 
-  .sliderbarOpen{
-    display: block;
-    cursor: pointer;
+  header{
+     height: 50px;
+     justify-content: space-between;
+     padding: 0 28px;
   }
 
+  .header_toggle{
+     display: inline;
+  }
+
+  .header_close{
+     position: absolute;
+     right: 24px;
+     display: block;
+  }
+
+  .nav{
+     position: fixed;
+     background: #fff;
+     top: 0;
+     right: -100%;
+     width:50%;
+     height:100vh;
+     padding: 24px 0;
+     z-index: 100px;
+     transition: 0.5s;
+  }
+
+  .nav_list{
+     display: flex;
+     flex-direction: column;
+     padding: 80px 0;
+     float: left;
+  }
+
+  .nav_item{
+     margin: 10px;
+  }
+
+  .nav_item a{
+     width: 100px;
+     height: 50px;
+     text-align: left;
+     color: #000;
+     font-size: 20px;
+     display: inline-block;
+     outline: none;
+  }
+
+  .show{
+     right: 0;
+  }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 425px) {
   body {
     margin: 5px 5px;
   }
