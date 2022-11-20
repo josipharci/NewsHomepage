@@ -61,21 +61,18 @@ header{
 
 /* End Navbar */
 
+/* Content */
+
 .content{
-  height:520px;
+  height:420px;
   margin-top:25px;
 }
 
-.content > .row {
-  height: 520px;
+.first_col{
+  padding: 0 5px;
 }
 
-.content > .row > .col-8{
-  height: 520px;
-  padding-right:10px;
-}
-
-.content > .row > .col-8 > img{
+.img_col img{
   width:100%;
 }
 
@@ -83,36 +80,34 @@ header{
   padding-top: 20px;
 }
 
-#heading{
-  width:100%;
-  padding: 20px 20px;
+.heading{
+  padding: 20px 0;
 }
 
-#heading h2{
-
-  padding:0 25px;
-  font-size: 3.0rem;
+.heading h2{
+  padding: 0 10px;
+  font-size: 2.5rem;
   font-weight:800;
 }
 
-#text-line {
-  padding: 20px 20px;
+.text-line {
+  padding: 20px 10px;
 }
 
-#text-line p{
+.text-line p{
   text-align: left;
   font-size: 0.8rem;
-  padding: 10px 15px;
+  padding: 5px 0;
   color: hsl(270, 4%, 80%);
 }
 
-#text-line a{
-  margin-left:15px;
+.text-line a{
   color: #fff;
 }
 
-#text-line a:hover{
+.text-line a:hover{
   background:hsl(240, 100%, 5%);
+  color: #fff;
 }
 
 .btn-read{
@@ -120,56 +115,63 @@ header{
   border-radius: 0;
 }
 
-.content > .row > .col-4{
-  height: 520px;
+/* ------------------- */
+
+.new_col{
+  height:400px;
   background:hsl(240, 100%, 5%);
 }
 
-.content > .row > .col-4 > h3{
-  font-size: 2.2rem;
+.new_col h3{
+  font-size: 1.8rem;
   color:hsl(35, 77%, 62%);
   padding-top:20px;
   padding-left:15px;
 }
 
-.content > .row > .col-4 > .col-sm{
+.new_col > .col-sm{
   margin: 15px 5px;
-  padding: 15px 10px;
+  padding: 15px 0x;
   border-bottom: 1px solid hsl(270, 4%, 80%);
 }
 
-.content > .row > .col-4 > .col-sm:nth-child(4){
+.new_col > .col-sm:nth-child(4){
   border: none;
 }
 
-.content > .row > .col-4 > .col-sm > a{
-  font-size: 1.25rem;
+.new_col > .col-sm > a{
+  font-size: 1.1rem;
   color: #fff;
-  padding-left: 5px;
+  padding-left:5px;
   text-decoration-line: none;
 }
 
-.content > .row > .col-4 > .col-sm > a:hover{
+.new_col > .col-sm > a:hover{
   color:hsl(35, 77%, 62%);
 }
 
-.content > .row > .col-4 > .col-sm > p{
-  font-size: 0.9rem;
+.new_col > .col-sm > p{
+  font-size: 0.85rem;
   color: hsl(270, 4%, 80%);
-  padding-top:10px;
+  padding-top:5px;
   padding-left: 5px;
 }
 
+/* end Content */ 
+
 .post{
-  margin-top: 30px;
+  
 }
 
-.post > .row > .col-sm > img{
-  width: 100px;
-  height: 130px;
-  padding-top: 10px;
-  padding-right:10px;
+.post_img img{
+  width: 95px;
+  height: 120px;
+  padding-right: 5px;
   float: left;
+}
+
+.content_post{
+  float: right;
 }
 
 .content_post a{
@@ -190,7 +192,7 @@ header{
 
 #number{
   font-size: 1.8rem;
-  font-weight: 700;
+  font-weight:700;
   color:hsl(270, 4%, 80%);
 }
 
